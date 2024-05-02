@@ -169,7 +169,6 @@ const config = { attributes: true, childList: true, subtree: true };
 observer.observe(document, config);
 
 window.addEventListener("load", () => {
-  console.log("Page is fully loaded");
   const tags = document.getElementsByTagName("ABBR");
   for (const tag of tags) {
     if (!isConverted(tag)) {
