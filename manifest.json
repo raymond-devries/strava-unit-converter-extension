@@ -2,7 +2,7 @@
   "name": "Strava Unit Converter",
   "description": "This allows you to view both units on your strava feed.",
   "manifest_version": 3,
-  "version": "1.1.2",
+  "version": "1.1.3",
   "content_scripts": [
     {
       "matches": ["*://*.strava.com/*"],
@@ -12,7 +12,7 @@
   ],
   "browser_specific_settings": {
     "gecko": {
-      "id": "strava-unit-converter-dev@raymond"
+      "id": "strava-unit-converter@raymond"
     }
   }
 }

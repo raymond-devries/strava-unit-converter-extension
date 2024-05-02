@@ -49,7 +49,7 @@ function feetToM(feet) {
   const metersPerFoot = 0.3048; // 1 foot is approximately equal to 0.3048 meters
   const meters = cleanedFeet * metersPerFoot;
   const metersRounded = Math.floor(meters);
-  return metersRounded.toFixed(2); // Return the converted value with 2 decimal places
+  return metersRounded.toLocaleString(); // Return the converted value with 2 decimal places
 }
 
 function timePerKmToTimePerMi(pace) {
